@@ -1,0 +1,25 @@
+/**
+ * @name IconRemoval
+ * @author rat#0101
+ * @version 1.0
+ * @invite ZHthyCw
+ * @description Removes annoying buttons.
+ * @source https://gist.githubusercontent.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e/raw/f85478c9cd7cd2bf40f726f3b55ff2911fe5264c/RemoveButtons.theme.css
+*/
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: true;
+}
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+/* Hide annoying sticker popup window that appears when you type */
+.da-channelTextArea > .container-JHR0NT {
+    display: none;
+}
