@@ -1,0 +1,2 @@
+# discordthemes
+personal theme
